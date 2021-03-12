@@ -1,0 +1,27 @@
+.title{
+    font-size: 40px;
+    font-family: fantasy;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    
+}
+.title:hover{
+    text-decoration: underline;
+    color: lightsalmon;
+}
+.red{
+    color: lightcoral;
+}
+
+.robot{
+    padding: 12px;
+    margin: 16px;
+    border-radius: 9px;
+    background-color: lightskyblue;
+    box-shadow:2px 2px 2px 2px rgb(194, 190, 190); 
+    transition: 0.5s;
+    border-top: 1px solid lightcoral;
+}
+.robot:hover{
+    transform: scale(1.05);
+}
